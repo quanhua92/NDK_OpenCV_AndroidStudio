@@ -5,13 +5,14 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-
-
+import org.opencv.android.CameraBridgeViewBase;
 public class MainActivity extends ActionBarActivity {
 
     static {
         System.loadLibrary("MyLib");
+        System.loadLibrary("opencv_java");
     }
+    CameraBridgeViewBase camera;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

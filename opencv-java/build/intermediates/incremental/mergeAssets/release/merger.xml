@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/robotbase/github/NDK_OpenCV_AndroidStudio/opencv-java/src/main/assets"/></dataSet><dataSet config="release"><source path="/home/robotbase/github/NDK_OpenCV_AndroidStudio/opencv-java/src/release/assets"/></dataSet></merger>

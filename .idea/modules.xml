@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NDK_OpenCV_AndroidStudio.iml" filepath="$PROJECT_DIR$/NDK_OpenCV_AndroidStudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opencv-java/opencv-java.iml" filepath="$PROJECT_DIR$/opencv-java/opencv-java.iml" />
     </modules>
   </component>
 </project>
