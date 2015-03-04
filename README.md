@@ -5,7 +5,7 @@ Step to use NDK in Android Studio:
 
 <pre>
 public class NativeClass {
-    public native String getStringFromNative();
+    public native static String getStringFromNative();
 }
 </pre>
 
@@ -15,12 +15,6 @@ public class NativeClass {
 
 <pre>
 javah -d jni -classpath ../../build/intermediates/classes/debug/ com.example.ndk_opencv_androidstudio.NativeClass
-</pre>
-
-- Add NDK Directory to local.properties file (not on github)
-
-<pre>
-ndk.dir=/home/robotbase/Android/NDK64/android-ndk-r10d
 </pre>
 
 - Create "com_example_ndk_opencv_androidstudio_NativeClass.cpp" in c folder (jni folder).
