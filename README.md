@@ -135,6 +135,14 @@ LOCAL_MODULE := MyLib
 include $(BUILD_SHARED_LIBRARY)
 </pre>
 
+- Edit MainActivity.java
+
+<pre>
+static {
+    System.loadLibrary("MyLib");
+    System.loadLibrary("opencv_java");
+}
+</pre>
 Step to use OpenCV in Java:
 ==============
 
